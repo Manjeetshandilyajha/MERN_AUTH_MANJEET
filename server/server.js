@@ -20,7 +20,7 @@ const __dirname = dirname(__filename);
 
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({origin: process.env.VITE_FRONTEND_URL, credentials: true }));
+app.use(cors({origin: 'https://mern-auth-manjeet.onrender.com/', credentials: true }));
 
 // app.use(cors({origin:'http://localhost:5173', credentials: true }));
 // app.use(cors({origin:allowedOrigins, credentials: true }));
